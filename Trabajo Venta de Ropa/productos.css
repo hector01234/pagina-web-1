@@ -1,0 +1,34 @@
+.slider{
+    width: 750px;
+    height: 400px;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 200%;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes cambio{
+    0%{margin-left: 0%}
+    20% {margin-left: 0%;}
+
+    25%{margin-left: -50%;}
+    45%{margin-left: -100%}
+}
+
+#titulo{
+    width: 525px;
+    height: 125px;
+    right: 480px;
+}
+body{
+    background-color: cadetblue;
+}
